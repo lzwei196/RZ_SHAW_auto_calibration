@@ -1,6 +1,9 @@
 # Welcome to RZ_SHAW_autocalibration
 `RZ_SHAW_autocalibration` is an open source program that offers the user the ability to calibrate the parameters for snow depth and soil temperature. The program emploies the Sobol sequence to sample the value sets based on desired range and numbers for the variables. The result for each run will be recorded in the MySQL database with the NSE and RMSD values, along with the potential errors outputted from the the RZ-SHAW model.  
 
+#update 06/06
+`Added support for parallel and distributed computing. The distributed computing is based on ray, parallel computing is based on the multiprocessing module. For detailed usages, contact leo.li@mail.mcgill.ca`
+
 # Pre-requirement
 * Python 3.7 or above installed
 * PyTorch installed. PyTorch's SOBOL engine:
